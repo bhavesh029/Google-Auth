@@ -1,0 +1,35 @@
+{
+  "name": "google-auth",
+  "version": "1.0.0",
+  "description": "Learning how to implement google authentication for login and signup, using node.js.",
+  "main": "index.js",
+  "scripts": {
+  "build": "tsc",
+  "start": "node dist/index.js",
+  "dev": "ts-node src/index.ts"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavesh029/Google-Auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavesh029/Google-Auth/issues"
+  },
+  "homepage": "https://github.com/bhavesh029/Google-Auth#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
